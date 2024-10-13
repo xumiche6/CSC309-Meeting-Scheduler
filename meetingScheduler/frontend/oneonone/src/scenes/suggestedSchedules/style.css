@@ -1,0 +1,99 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -1rem;
+}
+
+.suggested-calendar-page-wrapper {
+  gap: 1rem;
+  width: 100%;
+  padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F8F8;
+  overflow: hidden;
+  max-height: 53vh;
+}
+
+.suggested-calendar-wrapper {
+  margin: 1rem;
+}
+
+#suggested-calendar-container {
+  overflow-y: auto;
+  overflow: scroll;
+  max-height: 50vh;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.suggested-calendar {
+  font-size: 11.5px;
+  max-height: 65vh;
+}
+
+table {
+  margin-top: 20px;
+  width: 70%;
+  padding: 1rem;
+  margin-right: 0 !important;
+}
+
+th {
+  position: sticky;
+
+  top: 0;
+}
+
+#suggested-schedule-select-container {
+  display: flow;
+  background-color: #E8E8E8;
+  width: 25rem;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+#suggested-schedule-select-list-container {
+  display: flex
+}
+
+@media screen and (max-width: 780px){
+  h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  #schedule-select-container {
+    transform: scale(0.6);
+    margin-left: -2.8rem;
+  }
+
+  .nav-item {
+    transform: scale(0.8);
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
+
+.button-container {
+    display: flex;
+}
+
+.button-container button {
+    flex: 1;
+    margin-right: 8px; /* Adjust as needed */
+}
+
+.button-container button:last-child {
+    margin-right: 0;
+}

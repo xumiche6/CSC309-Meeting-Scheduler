@@ -1,0 +1,76 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+#page-container{
+    display: flex;
+}
+
+#content-wrap{
+    padding: 10px;
+}
+
+th{
+    text-align: left;
+    width: 100vh
+}
+
+#sidebar{
+    height: 100vh;
+    background: #5052ba;
+    display: flex;
+}
+
+#sidebar ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+#sidebar li{
+    padding-top: 3px;
+}
+
+.current:hover, .sidebar-link:hover{
+    color: #ffffff;
+}
+
+.current{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sidebar-link{
+    text-decoration: none;
+    color: #bfbed4;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.invite-header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 700px){
+    .btn{
+        font-size: 1.9vw !important; 
+        margin-top: 0.2rem;
+    }
+    .header-container h1{
+       font-size: 0.7rem;
+       margin-right: 1rem;
+    }
+    #receiverFilter {
+       transform: scale(0.6);
+    }
+
+
+}

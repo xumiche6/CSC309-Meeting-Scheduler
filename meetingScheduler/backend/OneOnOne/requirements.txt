@@ -1,0 +1,9 @@
+django==4.2
+Pillow
+djangorestframework-simplejwt
+djangorestframework
+django-cors-headers
+psycopg2-binary
+django-storages[google]
+django-environ
+gunicorn

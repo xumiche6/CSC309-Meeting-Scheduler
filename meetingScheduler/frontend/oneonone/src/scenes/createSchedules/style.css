@@ -1,0 +1,154 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+#root {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.redirect-button {
+  background-color: 	#C0C0C0;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.redirect-button:hover {
+  background-color: grey;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.create-schedule-header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+    gap: 2rem;
+    display: flex;
+    align-items: baseline;
+  }
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: scroll;
+    font-size: 12px;
+    max-height: 75vh;
+    margin-top: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-bottom: 0.5rem;
+    background-color: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.success {
+    color: green;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+select[multiple] {
+    padding: 1rem;
+}
+select[multiple] option {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 1.2rem;
+      }
+    select[multiple] option {
+        max-width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 0.5rem;
+    }
+
+    form {
+        max-width: 56vh;
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 912px) {
+    form {
+        max-width: 47vh;
+    }
+    redirect-button {
+        transform: scale(0.5);
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    form {
+        max-width: 25vh;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 0.9rem;
+    }
+
+}
+
+.error-input {
+    background-color: red;
+}

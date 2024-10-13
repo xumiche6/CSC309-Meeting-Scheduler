@@ -1,0 +1,724 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$EhJ6avJLYufHHqaArqWdRZ$x2rK9UvkEs4LCn6kWJY5csgS4zxV9p9FnrN4KrE22Po=",
+    "last_login": "2024-03-07T23:32:27.474Z",
+    "is_superuser": false,
+    "username": "User1",
+    "first_name": "",
+    "last_name": "",
+    "email": "newuser1@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-03-07T23:32:02.539Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$BJarICHEBO1KuxFWyWEO7X$wrG9MvbleVR8XffhtwzWnqnptOzCaZgWt/rxVBCiWFw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "User2",
+    "first_name": "",
+    "last_name": "",
+    "email": "newuser2@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-03-07T23:32:07.069Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Brym6yFNVMg4yEaPpQsr7g$8ROlbvKF1nlE/TIzRxMZIfv7AFKX6DkTux9tKhJTHgk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "User3",
+    "first_name": "",
+    "last_name": "",
+    "email": "newuser3@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-03-07T23:32:09.710Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$JFLOlCiIeA7wdHJLlsr9sZ$+aZTxbnL9h5NIKT846ZtoLDcwZYgN3lRhwSetn+kMXo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "User4",
+    "first_name": "",
+    "last_name": "",
+    "email": "newuser4@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-03-07T23:32:12.109Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$8AN9vrDL080RjNKNz44eJj$PKSCzjKVJtzhzm9ag/e3xezFHGXFsbIU95l+fCNlLTE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "User5",
+    "first_name": "",
+    "last_name": "",
+    "email": "newuser5@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-03-07T23:32:14.553Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "name": "Billy Wang",
+    "email": "billy.wang@example.com"
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 3,
+  "fields": {
+    "user": 1,
+    "name": "Alfred Liam",
+    "email": "alfred.liam@example.com"
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "name": "Terry Dian",
+    "email": "terry.dian@example.com"
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 5,
+  "fields": {
+    "user": 1,
+    "name": "Ross Zurash",
+    "email": "ross.zurash@example.com"
+  }
+},
+{
+  "model": "availabilities.availabilities",
+  "pk": 1,
+  "fields": {
+  "day":"Mon",
+  "start_time": "15:00:00",
+  "duration": 60,
+  "priority": 2,
+  "availability_type": "sender",
+  "corresponding_user": 1
+  }
+},
+{
+  "model": "availabilities.availabilities",
+  "pk": 2,
+  "fields": {
+  "day":"Mon",
+  "start_time": "17:00:00",
+  "duration": 120,
+  "priority": 2,
+  "availability_type": "sender",
+  "corresponding_user": 1
+  }
+},
+  {
+  "model": "availabilities.availabilities",
+  "pk": 3,
+  "fields": {
+  "day":"Tue",
+  "start_time": "8:00:00",
+  "duration": 180,
+  "priority": 2,
+  "availability_type": "sender",
+  "corresponding_user": 1
+  }
+},
+   {
+  "model": "availabilities.availabilities",
+  "pk": 4,
+  "fields": {
+  "day":"Tue",
+  "start_time": "16:00:00",
+  "duration": 240,
+  "priority": 1,
+  "availability_type": "sender",
+  "corresponding_user": 1
+  }
+},
+  {
+  "model": "availabilities.availabilities",
+  "pk": 5,
+  "fields": {
+  "day":"Wed",
+  "start_time": "12:00:00",
+  "duration": 180,
+  "priority": 2,
+  "availability_type": "sender",
+  "corresponding_user": 1
+  }
+},
+    {
+  "model": "availabilities.availabilities",
+  "pk": 6,
+  "fields": {
+  "day":"Thu",
+  "start_time": "17:00:00",
+  "duration": 60,
+  "priority": 1,
+  "availability_type": "sender",
+  "corresponding_user": 1
+  }
+},
+     {
+  "model": "availabilities.availabilities",
+  "pk": 7,
+  "fields": {
+  "day":"Fri",
+  "start_time": "17:00:00",
+  "duration": 60,
+  "priority": 2,
+  "availability_type": "sender",
+  "corresponding_user": 1
+  }
+},
+  {
+  "model": "availabilities.availabilities",
+  "pk": 8,
+  "fields": {
+  "day":"Fri",
+  "start_time": "17:00:00",
+  "duration": 60,
+  "priority": 2,
+  "availability_type": "sender",
+  "corresponding_user": 2
+  }
+},
+    {
+  "model": "availabilities.availabilities",
+  "pk": 9,
+  "fields": {
+  "day":"Mon",
+  "start_time": "18:00:00",
+  "duration": 120,
+  "priority": 2,
+  "availability_type": "sender",
+  "corresponding_user": 2
+  }
+},
+{
+  "model": "invites.invite",
+  "pk": 1,
+  "fields": {
+      "sender": 1,
+      "receiver": 1,
+      "date_sent": "2024-03-10",
+      "confirmation": false,
+      "receiver_avail": null,
+      "schedule": 1
+  }
+},
+{
+  "model": "invites.invite",
+  "pk": 2,
+  "fields": {
+      "sender": 1,
+      "receiver": 1,
+      "date_sent": "2024-03-11",
+      "confirmation": false,
+      "receiver_avail": null,
+      "schedule": 2
+  }
+},
+{
+  "model": "invites.invite",
+  "pk": 3,
+  "fields": {
+      "sender": 1,
+      "receiver": 2,
+      "date_sent": "2024-03-11",
+      "confirmation": false,
+      "receiver_avail": null,
+      "schedule": 2
+  }
+},
+{
+    "model": "schedules.schedule",
+    "pk": 1,
+    "fields": {
+      "owner": 1,
+      "invited_contacts": [1, 2],
+      "meetings": [1, 2, 3, 4],
+      "duration_weeks": 2,
+      "name": "OH1",
+      "start_date": "2024-04-01",
+      "isArchived": false,
+      "color": "#FFCCCC"
+    }
+  },
+  {
+    "model": "schedules.schedule",
+    "pk": 2,
+    "fields": {
+      "owner": 1,
+      "invited_contacts": [1, 2, 3],
+      "meetings": [5, 6, 7],
+      "duration_weeks": 3,
+      "name": "OH2",
+       "start_date": "2024-04-01",
+      "isArchived": false,
+       "color": "#FFCC99"
+    }
+  },
+  {
+    "model": "schedules.schedule",
+    "pk": 3,
+    "fields": {
+      "owner": 1,
+      "invited_contacts": [1, 2],
+      "meetings": [8, 9],
+      "duration_weeks": 4,
+      "name": "OH3",
+      "start_date": "2024-04-01",
+      "isArchived": false,
+       "color": "#FFFFCC"
+    }
+  },
+  {
+    "model": "schedules.schedule",
+    "pk": 4,
+    "fields": {
+      "owner": 1,
+      "invited_contacts": [1, 2],
+      "meetings": [10, 11],
+      "duration_weeks": 6,
+      "name": "OH4",
+      "start_date": "2024-04-01",
+      "isArchived": false,
+       "color": "#CCFFCC"
+    }
+  },
+  {
+    "model": "schedules.schedule",
+    "pk": 5,
+    "fields": {
+      "owner": 1,
+      "invited_contacts": [1, 2],
+      "meetings": [12, 13],
+      "duration_weeks": 5,
+      "name": "OH5",
+      "start_date": "2023-01-01",
+      "isArchived": true,
+      "color": "#ECECEC"
+    }
+  },
+  {
+    "model": "schedules.schedule",
+    "pk": 6,
+    "fields": {
+      "owner": 1,
+      "invited_contacts": [1, 2],
+      "meetings": [14, 15],
+      "duration_weeks": 5,
+      "name": "OH6",
+      "start_date": "2023-01-01",
+      "isArchived": true,
+      "color": "#F0F0F0"
+    }
+  },
+    {
+    "model": "schedules.schedule",
+    "pk": 7,
+    "fields": {
+      "owner": 2,
+      "invited_contacts": [2],
+      "meetings": [16],
+      "duration_weeks": 5,
+      "name": "OH8",
+      "start_date": "2024-04-07",
+      "isArchived": false,
+       "color": "#e8d3ff"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 1,
+    "fields": {
+      "inviter": 1,
+      "day": "Mon",
+      "time": "17:00:00",
+      "title": "OH1",
+      "corresponding_schedule": 1,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": false,
+      "date": "2024-04-08",
+      "invitee": 1,
+      "color": "#FFCCCC"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 2,
+    "fields": {
+      "inviter": 1,
+      "day": "Tue",
+      "time": "17:00:00",
+      "title": "OH1",
+      "corresponding_schedule": 1,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": false,
+      "date": "2024-04-09",
+      "invitee": 1,
+      "color": "#FFCCCC"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 3,
+    "fields": {
+      "inviter": 1,
+      "day": "Mon",
+      "time": "16:00:00",
+      "title": "OH1",
+      "corresponding_schedule": 1,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": false,
+      "date": "2024-04-08",
+      "invitee": 2,
+       "color": "#FFCCCC"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 4,
+    "fields": {
+      "inviter": 1,
+      "day": "Thu",
+      "time": "17:00:00",
+      "title": "OH1",
+      "corresponding_schedule": 1,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": false,
+      "date": "2024-04-11",
+      "invitee": 2,
+       "color": "#FFCCCC"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 5,
+    "fields": {
+      "inviter": 1,
+      "day": "Mon",
+      "time": "15:00:00",
+      "title": "OH2",
+      "corresponding_schedule": 2,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": false,
+      "date": "2024-04-08",
+      "invitee": 1,
+      "color": "#FFCC99"
+    }
+  },
+     {
+    "model": "schedules.meeting",
+    "pk": 6,
+    "fields": {
+      "inviter": 1,
+      "day": "Wed",
+      "time": "13:00:00",
+      "title": "OH2",
+      "corresponding_schedule": 2,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": false,
+      "date": "2024-04-10",
+      "invitee": 2,
+       "color": "#FFCC99"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 7,
+    "fields": {
+      "inviter": 1,
+      "day": "Sat",
+      "time": "13:00:00",
+      "title": "OH2",
+      "corresponding_schedule": 2,
+      "duration": 60,
+      "isInviteeResponseReceived": false,
+      "confirmed": false,
+      "date": "2024-04-13",
+      "invitee": 3,
+       "color": "#FFCC99"
+    }
+  },
+
+  {
+    "model": "schedules.meeting",
+    "pk": 8,
+    "fields": {
+      "inviter": 1,
+      "day": "Fri",
+      "time": "13:00:00",
+      "title": "OH3",
+      "corresponding_schedule": 3,
+      "duration": 60,
+      "isInviteeResponseReceived": false,
+      "confirmed": false,
+       "date": "2024-04-12",
+      "invitee": 1,
+      "color": "#FFFFCC"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 9,
+    "fields": {
+      "inviter": 1,
+      "day": "Thu",
+      "time": "13:00:00",
+      "title": "OH3",
+      "corresponding_schedule": 3,
+      "duration": 60,
+      "isInviteeResponseReceived": false,
+      "confirmed": false,
+      "date": "2024-04-11",
+      "invitee": 2,
+      "color": "#FFFFCC"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 10,
+    "fields": {
+      "inviter": 3,
+      "day": "Sun",
+      "time": "15:00:00",
+      "title": "OH4",
+      "corresponding_schedule": 4,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": true,
+      "date": "2024-04-14",
+      "invitee": 1,
+      "color": "#CCFFCC"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 11,
+    "fields": {
+      "inviter": 3,
+      "day": "Mon",
+      "time": "16:00:00",
+      "title": "OH4",
+      "corresponding_schedule": 4,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": true,
+      "date": "2024-04-08",
+      "invitee": 2,
+      "color": "#CCFFCC"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 12,
+    "fields": {
+      "inviter": 1,
+      "day": "Mon",
+      "time": "16:00:00",
+      "title": "OH5",
+      "corresponding_schedule": 5,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": true,
+      "date": "2023-03-02",
+      "invitee": 2,
+      "color": "#ECECEC"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 13,
+    "fields": {
+      "inviter": 1,
+      "day": "Tue",
+      "time": "16:00:00",
+      "title": "OH5",
+      "corresponding_schedule": 5,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": true,
+      "date": "2023-01-03",
+      "invitee": 2,
+      "color": "#ECECEC"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 14,
+    "fields": {
+      "inviter": 1,
+      "day": "Fri",
+      "time": "11:00:00",
+      "title": "OH6",
+      "corresponding_schedule": 6,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": true,
+      "date": "2023-01-06",
+      "invitee": 3,
+      "color": "#F0F0F0"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 15,
+    "fields": {
+      "inviter": 1,
+      "day": "Wed",
+      "time": "17:00:00",
+      "title": "OH6",
+      "corresponding_schedule": 6,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": true,
+      "date": "2023-01-04",
+      "invitee": 2,
+      "color": "#F0F0F0"
+    }
+  },
+  {
+    "model": "schedules.meeting",
+    "pk": 16,
+    "fields": {
+      "inviter": 2,
+      "day": "Sun",
+      "time": "17:00:00",
+      "title": "OH8",
+      "corresponding_schedule": 7,
+      "duration": 60,
+      "isInviteeResponseReceived": true,
+      "confirmed": false,
+      "date": "2024-04-07",
+      "invitee": 2,
+      "color": "#e8d3ff"
+    }
+  },
+  {
+    "model": "receiverAvail.receiveravail",
+    "pk": 1,
+    "fields": {
+      "day": "Mon",
+      "start_time": "17:00:00",
+      "duration": 60,
+      "priority": 2,
+      "corresponding_contact": 1,
+      "corresponding_schedule": 1
+    }
+  },
+  {
+    "model": "receiverAvail.receiveravail",
+    "pk": 2,
+    "fields": {
+      "day": "Tue",
+      "start_time": "17:00:00",
+      "duration": 60,
+      "priority": 2,
+      "corresponding_contact": 1,
+      "corresponding_schedule": 1
+    }
+  },
+  {
+    "model": "receiverAvail.receiveravail",
+    "pk": 4,
+    "fields": {
+      "day": "Mon",
+      "start_time": "16:00:00",
+      "duration": 60,
+      "priority": 2,
+      "corresponding_contact": 2,
+      "corresponding_schedule": 1
+    }
+  },
+  {
+    "model": "receiverAvail.receiveravail",
+    "pk": 5,
+    "fields": {
+      "day": "Thu",
+      "start_time": "17:00:00",
+      "duration": 60,
+      "priority": 2,
+      "corresponding_contact": 2,
+      "corresponding_schedule": 1
+    }
+  },
+  {
+    "model": "receiverAvail.receiveravail",
+    "pk": 6,
+    "fields": {
+      "day": "Mon",
+      "start_time": "15:00:00",
+      "duration": 60,
+      "priority": 2,
+      "corresponding_contact": 1,
+      "corresponding_schedule": 2
+    }
+  },
+  {
+    "model": "receiverAvail.receiveravail",
+    "pk": 7,
+    "fields": {
+      "day": "Wed",
+      "start_time": "13:00:00",
+      "duration": 60,
+      "priority": 2,
+      "corresponding_contact": 2,
+      "corresponding_schedule": 2
+    }
+  }
+]

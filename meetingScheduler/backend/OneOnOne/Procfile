@@ -1,0 +1,5 @@
+web: gunicorn --bind 0.0.0.0:$PORT --workers 1 --threads 8 --timeout 0 OneOnOne.wsgi:application
+migrate: python manage.py migrate
+createuser: python manage.py createsuperuser --username admin --email noop@example.com --noinput
+flush: python manage.py flush --no-input
+loaddata: python manage.py loaddata test_data/initial_data.json
